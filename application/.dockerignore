@@ -1,0 +1,17 @@
+# Git and Composer files
+.git
+.gitignore
+.gitattributes
+composer.lock
+
+# IDE and OS-specific files
+*.log
+*.swp
+*.swo
+*.DS_Store
+.idea
+.vscode
+
+# Docker-related files (if needed)
+Dockerfile
+docker-compose.yml
