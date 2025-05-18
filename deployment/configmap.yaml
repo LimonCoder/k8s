@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: portfolio-config-map
 data:
-  APP_ENV: "staging"
+  APP_ENV: "local"
   APP_DEBUG: "true"
   MAIL_CHECKER: "limonfpi408@gmail.com"

@@ -5,7 +5,7 @@ metadata:
   labels:
     app: portfolio-app
     tier: backend
-    env: staging
+    env: local
 spec:
   replicas: 2
   selector:
@@ -22,7 +22,7 @@ spec:
       labels:
         app: portfolio-app
         tier: backend
-        env: staging
+        env: local
     spec:
       containers:
         - name: portfolio-management-system-app
